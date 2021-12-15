@@ -1,0 +1,7 @@
+.header {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: "logo header__choice-language"
+                       "header__title header__title"
+                       "header__subtitle header__subtitle";
+}

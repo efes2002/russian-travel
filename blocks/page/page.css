@@ -1,0 +1,6 @@
+.page {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  grid-template-columns: 1280px;
+  justify-content: center;
+}
