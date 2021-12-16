@@ -4,3 +4,19 @@
   grid-template-columns: 1280px;
   justify-content: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .page {
+    grid-template-columns: 1024px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .page {
+    grid-template-columns: 768px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page {
+    grid-template-columns: 320px;
+  }
+}

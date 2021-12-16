@@ -1,3 +1,16 @@
 .header__choice-language {
-  grid-area: header__choice-language;
+  display: grid;
+  grid-template-columns: repeat( 2, auto );
+  justify-content: end;
+  grid-column-gap: 18px;
+  align-self: end;
+  list-style: none;
+  margin: 46px 48px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__choice-language {
+    margin: 30px 16px 0 0;
+  }
 }

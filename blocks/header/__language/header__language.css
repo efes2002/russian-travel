@@ -3,7 +3,17 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 1.2;
-  text-decoration-line: underline;
+  line-height: 1.17;
   color: #FFFFFF;
+  decoration: none;
+}
+.header__language:nth-child(1) {
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .header__language {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }

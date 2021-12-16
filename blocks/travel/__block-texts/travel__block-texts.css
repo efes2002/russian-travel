@@ -1,0 +1,24 @@
+.travel__block-texts {
+  display: grid;
+  justify-content: start;
+}
+
+@media screen and (max-width: 1279px) {
+  .travel__block-texts {
+
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .travel__block-texts {
+    justify-content: center;
+    grid-template-columns: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .travel__block-texts {
+    justify-content: center;
+    grid-template-columns: 288px;
+  }
+}

@@ -1,4 +1,6 @@
 .cards__title {
+  margin: 0;
+  grid-area: cards__title;
   width: 460px;
   font-family: Inter;
   font-style: normal;
@@ -6,4 +8,29 @@
   font-size: 72px;
   line-height: 1.06;
   color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 1279px) {
+  .cards__title {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cards__title {
+    width: 340px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+    justify-self: center;
+    align-self: center;
+  }
 }

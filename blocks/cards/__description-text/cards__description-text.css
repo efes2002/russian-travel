@@ -1,10 +1,13 @@
-.cards__url-link {
+.cards__description-text {
   margin: 0;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.22;
-  text-decoration-line: underline;
+  line-height: 1.63;
   color: #FFFFFF;
+}
+
+.cards__description-text:nth-child(2) {
+  margin-top: 12px;
 }

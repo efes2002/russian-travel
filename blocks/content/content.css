@@ -1,0 +1,9 @@
+.content {
+  display: grid;
+  grid-template-columns: 100%;
+  background: #2A2C2F;
+  justify-content: center;
+  align-items: start;
+  margin: 0;
+}
+
