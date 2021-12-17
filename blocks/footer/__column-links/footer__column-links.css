@@ -1,0 +1,29 @@
+.footer__column-links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  justify-self: center;
+  align-self: start;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__column-links {
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__column-links {
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__column-links {
+    grid-auto-flow: row;
+    grid-column-gap: 0px;
+    grid-row-gap: 32px;
+  }
+}

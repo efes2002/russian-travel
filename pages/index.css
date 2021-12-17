@@ -40,9 +40,9 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column-link/footer__link.css);
 @import url(../blocks/footer/__link-nav/footer__link-nav.css);
-@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 

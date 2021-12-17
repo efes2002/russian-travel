@@ -9,3 +9,6 @@
   color: #FFFFFF;
 }
 
+.cards__link:hover {
+  opacity: 0.8;
+}

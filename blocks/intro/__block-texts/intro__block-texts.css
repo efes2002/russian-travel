@@ -20,5 +20,6 @@
   .intro__block-texts {
     justify-content: center;
     grid-template-columns: 288px;
+    justify-content: start;
   }
 }

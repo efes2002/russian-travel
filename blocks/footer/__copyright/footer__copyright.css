@@ -1,4 +1,11 @@
-.footer__author {
+.footer__copyright{
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0;
+  padding: 0;
+  justify-self: center;
+  align-self: start;
+
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
