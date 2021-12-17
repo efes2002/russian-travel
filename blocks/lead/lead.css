@@ -1,27 +1,25 @@
-.content {
+.lead {
+  margin: 0;
+  padding: 56px 0 0 0;
   display: grid;
   grid-template-columns: 100%;
-  grid-row-gap: 92px;
-  background: #2A2C2F;
   justify-content: center;
-  align-items: start;
-  margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
-  .content {
-    grid-row-gap: 92px;
+  .lead {
+    padding: 48px 0 0 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .content {
-    grid-row-gap: 88px;
+  .lead {
+    padding: 48px 0 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .content {
-    grid-row-gap: 64px;
+  .lead {
+    padding: 48px 0 0 0;
   }
 }

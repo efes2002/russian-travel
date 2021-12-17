@@ -1,33 +1,30 @@
-.cards__title {
-  margin: 0;
-  grid-area: cards__title;
+.cover__title {
+  margin: 0 312px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
+  text-align: center;
   color: #FFFFFF;
-
 }
 
 @media screen and (max-width: 1279px) {
-  .cards__title {
+  .cover__title {
+    margin: 0 232px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .cards__title {
-    font-size: 42px;
-    line-height: 1.1;
+  .cover__title {
+    margin: 0 104px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .cards__title {
+  .cover__title {
     margin: 0 16px;
     font-size: 32px;
     line-height: 1.09;
-    justify-self: start;
-    align-self: center;
   }
 }

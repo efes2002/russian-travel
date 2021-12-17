@@ -3,8 +3,8 @@
   display: grid;
   grid-template-columns: 460px auto;
   grid-template-areas:
-    "cards__title cards__url"
-    "cards__image cards__description";
+    "cards__title cards__website"
+    "cards__image cards__paragraphs";
   grid-gap: 48px 40px;
   justify-content: center;
   list-style:none;
@@ -15,8 +15,8 @@
   .cards__item {
     grid-template-columns: 440px auto;
     grid-template-areas:
-    "cards__title cards__url"
-    "cards__image cards__description";
+    "cards__title cards__website"
+    "cards__image cards__paragraphs";
     grid-gap: 48px 32px;
   }
 }
@@ -25,20 +25,20 @@
   .cards__item {
     grid-template-columns: 340px auto;
     grid-template-areas:
-    "cards__title cards__url"
-    "cards__image cards__description";
+    "cards__title cards__website"
+    "cards__image cards__paragraphs";
     grid-gap: 48px 28px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cards__item {
-    grid-template-columns: 320px;
+    grid-template-columns: minmax(320px, 100%);
     grid-template-areas:
     "cards__title"
-    "cards__url"
+    "cards__website"
     "cards__image"
-    "cards__description";
+    "cards__paragraphs";
     grid-gap: 32px 0px;
   }
 }

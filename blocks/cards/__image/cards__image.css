@@ -1,7 +1,7 @@
 .cards__image {
   margin: 0;
   grid-area: cards__image;
-  width: 460px;
+  width: 100%;
   justify-self: right;
   align-self: start;
   border:none;
@@ -9,19 +9,19 @@
 
 @media screen and (max-width: 1279px) {
   .cards__image {
-    width: 440px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cards__image {
-    width: 340px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cards__image {
-    width: 320px;
+    width: 100%;
     justify-self: center;
     align-self: center;
   }

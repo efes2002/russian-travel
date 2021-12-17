@@ -1,0 +1,10 @@
+.cover__titles {
+  margin: 0;
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  grid-row-gap: 32px;
+  justify-items: center;
+  align-content: center;
+  z-index: 2;
+}

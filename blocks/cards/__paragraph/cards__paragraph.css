@@ -1,0 +1,13 @@
+.cards__paragraph {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #FFFFFF;
+}
+
+.cards__paragraph:nth-child(2) {
+  margin-top: 12px;
+}

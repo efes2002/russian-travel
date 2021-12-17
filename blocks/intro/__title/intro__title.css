@@ -1,33 +1,28 @@
-.cards__title {
+.intro__title {
   margin: 0;
-  grid-area: cards__title;
+  text-align: left;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
+  font-size: 54px;
+  line-height: 1.07;
   color: #FFFFFF;
-
 }
 
 @media screen and (max-width: 1279px) {
-  .cards__title {
+  .intro__title {
+
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .cards__title {
-    font-size: 42px;
-    line-height: 1.1;
+  .intro__title {
   }
 }
 
 @media screen and (max-width: 767px) {
-  .cards__title {
-    margin: 0 16px;
+  .intro__title {
     font-size: 32px;
     line-height: 1.09;
-    justify-self: start;
-    align-self: center;
   }
 }
