@@ -3,10 +3,9 @@
   grid-template-columns: auto;
   margin: 0;
   padding: 0;
-  justify-self: center;
-  align-self: start;
-
-  font-family: Inter;
+  justify-self: start;
+  align-self: end;
+  font-family: Inter,'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

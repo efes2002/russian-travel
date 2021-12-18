@@ -1,6 +1,7 @@
 @import url(../styles/normalize.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/link-hover/link-hover.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/__line/header__line.css);
@@ -43,6 +44,5 @@
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__link.css);
-@import url(../blocks/footer/__link-nav/footer__link-nav.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 

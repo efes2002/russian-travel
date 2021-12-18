@@ -1,6 +1,6 @@
 .cards__paragraph {
   margin: 0;
-  font-family: Inter;
+  font-family: Inter,'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -9,5 +9,11 @@
 }
 
 .cards__paragraph:nth-child(2) {
-  margin-top: 12px;
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 1023px) {
+  .cards__paragraph {
+    font-size: 16px;
+  }
 }

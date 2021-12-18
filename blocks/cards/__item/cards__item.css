@@ -14,9 +14,6 @@
 @media screen and (max-width: 1279px) {
   .cards__item {
     grid-template-columns: 440px auto;
-    grid-template-areas:
-    "cards__title cards__website"
-    "cards__image cards__paragraphs";
     grid-gap: 48px 32px;
   }
 }
@@ -24,9 +21,6 @@
 @media screen and (max-width: 1023px) {
   .cards__item {
     grid-template-columns: 340px auto;
-    grid-template-areas:
-    "cards__title cards__website"
-    "cards__image cards__paragraphs";
     grid-gap: 48px 28px;
   }
 }

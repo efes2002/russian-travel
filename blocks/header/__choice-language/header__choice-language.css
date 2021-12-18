@@ -1,12 +1,16 @@
 .header__choice-language {
   display: grid;
   grid-template-columns: repeat( 2, auto );
-  justify-content: end;
   grid-column-gap: 18px;
-  align-self: end;
   list-style: none;
   margin: 46px 48px 0 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__choice-language {
+    margin: 46px 24px 0 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
