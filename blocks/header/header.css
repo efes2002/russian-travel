@@ -1,5 +1,6 @@
 .header {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: repeat( 2, auto );
+  justify-content: space-between;
   margin: 0;
 }

@@ -16,5 +16,6 @@
   opacity: 0.3;
 }
 .cover__link:hover:before {
+  transition: opacity 1s ease-in-out;
   opacity: 0.8;
 }
